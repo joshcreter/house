@@ -31,7 +31,8 @@
 		"angular-array":"latest",
 		"angular-facebook-auth":"latest",
 		"angular-google-auth":"latest",
-		"angular-forminput":"latest"
-	},
+		"angular-forminput":"latest",
+        "angular-adaptive-speech": "latest"
+    },
 	"license": "MIT"
 }
