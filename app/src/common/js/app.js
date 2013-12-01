@@ -165,6 +165,20 @@ config(['$routeProvider', '$locationProvider', 'appConfigProvider', '$compilePro
 			}
 		}
 	});
+$routeProvider.when(appPathRoute+'todo', {templateUrl: pagesPath+'/todo/todo.html',
+		resolve: {
+			auth: function(appAuth) {
+				return appAuth.checkSess({noLoginRequired:true});
+			}
+		}
+	});
+$routeProvider.when(appPathRoute+'listen', {templateUrl: pagesPath+'/listen/listen.html',
+		resolve: {
+			auth: function(appAuth) {
+				return appAuth.checkSess({noLoginRequired:true});
+			}
+		}
+	});
 //end: yeoman generated routes here - DO NOT DELETE THIS COMMENT AS IT IS USED BY YEOMAN TO GENERATE A NEW ROUTE!
 	
 

@@ -32,8 +32,8 @@
 							"angular-string/string.min.js",
 							"angular-facebook-auth/facebook-auth.min.js",
 							"angular-google-auth/google-auth.min.js",
-                            "angular-adaptive-speech/angular-adaptive-speech.min.js"
-                        ]
+							"angular-adaptive-speech/angular-adaptive-speech.js"
+						]
 					},
 					"dirs": [
 						{
@@ -248,6 +248,17 @@
 								],
 								"test": [
 									"socialAuth.spec.js"
+								]
+							}
+						},
+						{
+							"name": "todoStorage",
+							"files": {
+								"js": [
+									"todoStorage.js"
+								],
+								"test": [
+									"todoStorage.spec.js"
 								]
 							}
 						}
@@ -467,6 +478,40 @@
 								],
 								"less": [
 									"vui.less"
+								]
+							}
+						},
+						{
+							"name": "todo",
+							"files": {
+								"html": [
+									"todo.html"
+								],
+								"js": [
+									"TodoCtrl.js"
+								],
+								"test": [
+									"TodoCtrl.spec.js"
+								],
+								"less": [
+									"todo.less"
+								]
+							}
+						},
+						{
+							"name": "listen",
+							"files": {
+								"html": [
+									"listen.html"
+								],
+								"js": [
+									"ListenCtrl.js"
+								],
+								"test": [
+									"ListenCtrl.spec.js"
+								],
+								"less": [
+									"listen.less"
 								]
 							}
 						}
