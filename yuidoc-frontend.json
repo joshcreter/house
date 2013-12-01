@@ -1,0 +1,11 @@
+{
+	"name": "house",
+    "description": "My really cool app!",
+    "version": "0.0.0",
+    "url": "https://github.com/joshcreter/house",
+    "options": {
+        "paths": "./app/src/",
+        "outdir": "yuidocs/frontend",
+        "exclude": "bower_components,build,deploys,test"
+    }
+}
