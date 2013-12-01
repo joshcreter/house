@@ -2,12 +2,12 @@
  */
 
 'use strict';
-
+/*
 angular.module('myApp').controller('VuiCtrl', ['$scope',
 function($scope) {
 
 }]);
-/*
+*/
 
 angular.module('myApp').controller('VuiCtrl', function VuiCtrl($scope, $speechRecognition) {
 
@@ -20,4 +20,3 @@ angular.module('myApp').controller('VuiCtrl', function VuiCtrl($scope, $speechRe
     $speechRecognition.listen();
 })
 ;
-    */
