@@ -40,6 +40,7 @@ angular.module('myApp', [
 'hmTouchEvents',		//hammer swipe / touch
 'ui.bootstrap',
 'jrg',
+'adaptive.speech',
 'app'		//local / app specific directives and services (anything that can be used across apps should be added to an external (bower) directive or service library)
 ]).
 config(['$routeProvider', '$locationProvider', 'appConfigProvider', '$compileProvider', function($routeProvider, $locationProvider, appConfigProvider, $compileProvider) {

@@ -31,8 +31,9 @@
 							"angular-array/array.min.js",
 							"angular-string/string.min.js",
 							"angular-facebook-auth/facebook-auth.min.js",
-							"angular-google-auth/google-auth.min.js"
-						]
+							"angular-google-auth/google-auth.min.js",
+                            "angular-adaptive-speech/angular-adaptive-speech.min.js"
+                        ]
 					},
 					"dirs": [
 						{
