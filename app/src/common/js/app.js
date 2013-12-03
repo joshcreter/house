@@ -179,6 +179,13 @@ $routeProvider.when(appPathRoute+'listen', {templateUrl: pagesPath+'/listen/list
 			}
 		}
 	});
+$routeProvider.when(appPathRoute+'ok', {templateUrl: pagesPath+'/ok/ok.html',
+		resolve: {
+			auth: function(appAuth) {
+				return appAuth.checkSess({noLoginRequired:true});
+			}
+		}
+	});
 //end: yeoman generated routes here - DO NOT DELETE THIS COMMENT AS IT IS USED BY YEOMAN TO GENERATE A NEW ROUTE!
 	
 
