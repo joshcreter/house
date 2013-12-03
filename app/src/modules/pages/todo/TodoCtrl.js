@@ -7,7 +7,7 @@
      * - retrieves and persists the model via the todoStorage service
      * - exposes the model to the template and provides event handlers
      */
-    angular.module('myApp').controller('TodoCtrl', function TodoCtrl($scope, $location, todoStorage, filterFilter, $speechRecognition) {
+    angular.module('myApp').controller('TodoCtrlOld', function TodoCtrl($scope, $location, todoStorage, filterFilter, $speechRecognition) {
         var todos = $scope.todos = todoStorage.get();
 
         $scope.newTodo = '';

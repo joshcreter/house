@@ -1,11 +1,17 @@
 (function () {
     'use strict';
-
-    angular.module('myApp').controller('ListenCtrl', function TodoCtrl($scope, $location, todoStorage, filterFilter, $speechRecognition, appLighting) {
+    angular.module('myApp').controller('ListenCtrl', [$scope, $speechRecognition, function($scope, $speechRecognition) {
         var LANG = 'en-US';
+
+        var retVal =(appLighting.test('my test val'));
+        console.log(retVal);
+        appLighting.allLightsOn();
+        appLighting.allLightsOff();
+
         $speechRecognition.onstart(function(e){
             $speechRecognition.speak('Yes?');
         });
+
         $speechRecognition.onerror(function(e){
             var error = (e.error || '');
             alert('An error occurred ' + error);
@@ -21,14 +27,14 @@
                 'lang': 'en-US',
                 'call': function(utterance){
 
-                    appLighting.locateBridges();
                     console.log(utterance);
                     $speechRecognition.speak('OK');
+
                 }
             }
         };
 
         var ignoreUtterance = {};
         ignoreUtterance['command'] = $speechRecognition.listenUtterance($scope.recognition['en-US']['command']);
-    });
-}());
+    }]);
+});

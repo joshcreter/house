@@ -261,6 +261,17 @@
 									"todoStorage.spec.js"
 								]
 							}
+						},
+						{
+							"name": "lighting",
+							"files": {
+								"js": [
+									"lighting.js"
+								],
+								"test": [
+									"lighting.spec.js"
+								]
+							}
 						}
 					]
 				},
