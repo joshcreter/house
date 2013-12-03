@@ -525,6 +525,23 @@
 									"listen.less"
 								]
 							}
+						},
+						{
+							"name": "ok",
+							"files": {
+								"html": [
+									"ok.html"
+								],
+								"js": [
+									"OkCtrl.js"
+								],
+								"test": [
+									"OkCtrl.spec.js"
+								],
+								"less": [
+									"ok.less"
+								]
+							}
 						}
 					]
 				}
