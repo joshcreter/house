@@ -542,6 +542,23 @@
 									"ok.less"
 								]
 							}
+						},
+						{
+							"name": "mic",
+							"files": {
+								"html": [
+									"mic.html"
+								],
+								"js": [
+									"MicCtrl.js"
+								],
+								"test": [
+									"MicCtrl.spec.js"
+								],
+								"less": [
+									"mic.less"
+								]
+							}
 						}
 					]
 				}

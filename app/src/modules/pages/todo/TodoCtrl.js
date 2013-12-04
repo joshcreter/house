@@ -240,7 +240,7 @@
  //       ignoreUtterance['mark-all'] = $speechRecognition.listenUtterance($scope.recognition['en-US']['mark-all']);
  //       ignoreUtterance['unmark-all'] = $speechRecognition.listenUtterance($scope.recognition['en-US']['unmark-all']);
   //      ignoreUtterance['clear-completed'] = $speechRecognition.listenUtterance($scope.recognition['en-US']['clear-completed']);
-        ignoreUtterance['command'] = $speechRecognition.listenUtterance($scope.recognition['en-US']['command']);
+        ignoreUtterance.command = $speechRecognition.listenUtterance($scope.recognition['en-US'].command);
 
         /*
          to ignore listener call returned function

@@ -210,8 +210,8 @@ Hue.prototype.allLightsOn = function (db, data, params) {
     };
 
     var hueRequire = require("node-hue-api");
-    var hueApi = hueRequire.HueApi;
-    var hueApiInstance = new hueApi(hostname, hueUserId);
+    var HueApi = hueRequire.HueApi;
+    var hueApiInstance = new HueApi(hostname, hueUserId);
     var hueLightState = hueRequire.lightState;
 
     var displayResult = function (result) {
@@ -252,8 +252,8 @@ Hue.prototype.allLightsOff = function (db, data, params) {
     };
 
     var hueRequire = require("node-hue-api");
-    var hueApi = hueRequire.HueApi;
-    var hueApiInstance = new hueApi(hostname, hueUserId);
+    var HueApi = hueRequire.HueApi;
+    var hueApiInstance = new HueApi(hostname, hueUserId);
     var hueLightState = hueRequire.lightState;
 
     var displayResult = function (result) {
