@@ -52,7 +52,7 @@
 //        };
 //
 //        var ignoreUtterance = {};
-//            
+//
 // //       ignoreUtterance.command = $speechRecognition.listenUtterance($scope.recognition['en-US'].command);
 // //       ignoreUtterance.off = $speechRecognition.listenUtterance($scope.recognition['en-US'].off);
 // //       ignoreUtterance.on = $speechRecognition.listenUtterance($scope.recognition['en-US'].on);
